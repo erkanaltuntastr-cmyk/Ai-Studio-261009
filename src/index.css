@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  --notebook-line: #e2e8f0;
+  --notebook-margin: #fecdd3;
+  --notebook-bg: #fcfdfd;
+}
+
+body {
+  margin: 0;
+  background-color: #f8fafc;
+  color: #1e293b;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+.notebook-paper {
+  background-color: var(--notebook-bg);
+  background-image: 
+    linear-gradient(to right, var(--notebook-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--notebook-line) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Monospace numerals with strict tabular alignment */
+.tabular-nums, font-mono {
+  font-family: "Cascadia Mono", Consolas, "SF Mono", ui-monospace, Menlo, Monaco, monospace;
+  font-variant-numeric: tabular-nums;
+}

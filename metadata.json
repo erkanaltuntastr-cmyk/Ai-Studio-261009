@@ -1,0 +1,6 @@
+{
+  "name": "Ela's Maths Notebook - Year 5 Four Operations",
+  "description": "Interactive Year 5 UK Maths exercise book for column addition, decomposition subtraction, long multiplication, and bus-stop division with intelligent pedagogical diagnosis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
